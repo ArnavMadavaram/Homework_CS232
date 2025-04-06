@@ -1,0 +1,34 @@
+Teammate A Responsibilities (Arnav Madavaram)
+
+Code Implementation:
+    - struct TrieNode Definition
+    - Created the trie node structure with count and 26 child pointers.
+    - addWordOccurrence(struct TrieNode* root, const char* word)
+    - Implemented word insertion into the trie by traversing each character path.
+    - main(int argc, char* argv[])
+    - Set up the root, handled command-line input, and called indexPage, printTrieContents, and freeTrieMemory.
+ 
+Testing:
+Compiled the program with -Wall and ran test cases locally.
+Used valgrind to ensure memory was freed properly without leaks.
+
+Estimated Hours Worked: 8-10 hours
+
+Teammate B Responsibilities (Ayush Prakash)
+Code Implementation:
+    - printTrieContents(struct TrieNode* root, char* buffer, int level)
+    = Implemented recursive printing of all words in alphabetical order using a buffer.
+    - freeTrieMemory(struct TrieNode* root)
+    - Handled full recursive deallocation of the trie to prevent memory leaks.
+    -indexPage(const char* url): Wrote an alternate version to extract text using getText, parse and insert words using addWordOccurrence.
+
+Testing:
+Ran runTestCases.sh on the Diamond server.
+Verified output against the provided solution.
+
+Estimated Hours Worked: 8-10 hours
+
+Together:
+    - Together we integrated both parts and debugged it.
+    - Faced a few problems with the formatting of the output, and because of that all our tests 	would fail, managed to fix it by adding indentation.
+    - Ran and tested the project using runTestCases.sh
