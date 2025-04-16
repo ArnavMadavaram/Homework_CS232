@@ -38,7 +38,7 @@ int getText(const char* srcAddr, char* buffer, const int bufSize);
 int main(int argc, char** argv){
   /* TODO: write the (simple) main function
 
-  /* argv[1] will be the URL to index, if argc > 1 */
+   argv[1] will be the URL to index, if argc > 1 */
 
   // Check for command-line input
   if (argc < 2) {
