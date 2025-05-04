@@ -1,0 +1,1 @@
+./test_all.sh: line 4: ./webSearch: Permission denied

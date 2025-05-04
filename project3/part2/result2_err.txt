@@ -1,0 +1,1 @@
+Please enter a query containing only lower-case letters.
